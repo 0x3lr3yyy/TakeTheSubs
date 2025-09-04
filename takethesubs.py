@@ -265,7 +265,7 @@ class TakeTheSubs:
         
         return tools
     
-    def print_banner(self):
+    def # Banner removed to fix double display(self):
         """Print tool banner"""
         banner = f"""
 {Colors.CYAN}
@@ -461,7 +461,7 @@ Examples:
     takethesubs.config['verify'] = args.verify
     
     # Print banner
-    takethesubs.print_banner()
+    takethesubs.# Banner removed to fix double display()
     
     try:
         if args.target:
@@ -519,7 +519,7 @@ class Colors:
     UNDERLINE = '\033[4m'
     END = '\033[0m'
 
-def print_banner():
+def # Banner removed to fix double display():
     """Print TakeTheSubs banner"""
     banner = f"""
 {Colors.CYAN}
@@ -540,7 +540,7 @@ def print_banner():
 
 def main():
     """Main function"""
-    print_banner()
+    # Banner removed to fix double display()
     
     parser = argparse.ArgumentParser(
         description="TakeTheSubs - Advanced Subdomain Discovery Tool",
